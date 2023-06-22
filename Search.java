@@ -11,7 +11,7 @@ public class Search {
         words = new ArrayList<String>();
         try {
             //Read a text file that contains all the words and add them to the arraylist
-            File wordsAplha = new File("words_alpha.txt");
+            File wordsAplha = new File("wordlist.txt");
             Scanner reader = new Scanner(wordsAplha);
             while (reader.hasNextLine()) {
                 String word = reader.nextLine();
